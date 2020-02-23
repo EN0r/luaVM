@@ -1,0 +1,13 @@
+﻿  luaTest.cpp
+luaTest.obj : error LNK2019: unresolved external symbol lua_close referenced in function "public: __cdecl luaCpp::~luaCpp(void)" (??1luaCpp@@QEAA@XZ)
+luaTest.obj : error LNK2019: unresolved external symbol lua_tolstring referenced in function "public: bool __cdecl luaCpp::checkLua(struct lua_State *,int)" (?checkLua@luaCpp@@QEAA_NPEAUlua_State@@H@Z)
+luaTest.obj : error LNK2019: unresolved external symbol lua_pushcclosure referenced in function "public: void __cdecl luaCpp::startLua(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?startLua@luaCpp@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+luaTest.obj : error LNK2019: unresolved external symbol lua_getglobal referenced in function "public: void __cdecl luaCpp::luaRun(void)" (?luaRun@luaCpp@@QEAAXXZ)
+luaTest.obj : error LNK2019: unresolved external symbol lua_setglobal referenced in function "public: void __cdecl luaCpp::startLua(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?startLua@luaCpp@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+luaTest.obj : error LNK2019: unresolved external symbol lua_pcallk referenced in function "public: void __cdecl luaCpp::luaRun(void)" (?luaRun@luaCpp@@QEAAXXZ)
+luaTest.obj : error LNK2019: unresolved external symbol luaL_checknumber referenced in function "int __cdecl wait(struct lua_State *)" (?wait@@YAHPEAUlua_State@@@Z)
+luaTest.obj : error LNK2019: unresolved external symbol luaL_loadfilex referenced in function "public: void __cdecl luaCpp::startLua(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?startLua@luaCpp@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+luaTest.obj : error LNK2019: unresolved external symbol luaL_newstate referenced in function "public: __cdecl luaCpp::luaCpp(void)" (??0luaCpp@@QEAA@XZ)
+luaTest.obj : error LNK2019: unresolved external symbol luaL_openlibs referenced in function "public: void __cdecl luaCpp::initLua(void)" (?initLua@luaCpp@@QEAAXXZ)
+Vendor\lua5.3\liblua53.a : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\fanfr\source\repos\luaTest\x64\Debug\luaTest.exe : fatal error LNK1120: 10 unresolved externals
